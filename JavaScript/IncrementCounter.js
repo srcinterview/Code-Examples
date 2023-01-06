@@ -3,7 +3,7 @@ import React from 'react';
 const [count, setCount] = React.useState(0)
 
 function IncrementCounter() {
-    return count;
+    return count + 1;
     setCount(count + 1)
 }
 
